@@ -3,7 +3,7 @@
 pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
- 
+  
 contract WavePortal {
     uint256 totalWaves;
     uint256 dapp_versao; // variavel de estado
@@ -25,7 +25,7 @@ contract WavePortal {
 
     // Get 
     function versao_dapp() public view returns(uint256) {
-        console.log("Versao %d DAPP!", dapp_versao);
+        console.log("Versao %d DAPP! =)", dapp_versao);
         return dapp_versao;
     }
 
