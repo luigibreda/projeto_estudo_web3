@@ -1,8 +1,9 @@
-# Basic Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Projeto de Estudo WEB3
 
-Try running some of the following tasks:
+Projeto de estudo em web3, aonde iremos criando e implementar funções na blockchain, adicionado, modificando e lendo informações com Smart Contracts criados em Solidity
+
+Comandos úteis:
 
 ```shell
 npx hardhat accounts
@@ -13,4 +14,3 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
-# projeto_estudo_web3
