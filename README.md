@@ -8,11 +8,12 @@ Comandos úteis:
 ```shell
 npx hardhat accounts
 npx hardhat compile
-npx hardhat clean
-npx hardhat test
+
+// Roda localhost
 npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+
+// deploy contrato para a Testnet
+npx hardhat run scripts/deploy.js --network testnet
 ```
 
 =)
