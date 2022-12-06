@@ -1,19 +1,41 @@
+# Smart Contract em Solidity
 
-# Projeto de Estudo WEB3
+[![smartcontract](https://iili.io/HC8CxFR.png)](https://iili.io/HC8CxFR.png)
 
-Projeto de estudo em web3, aonde iremos criando e implementar funções na blockchain, adicionado, modificando e lendo informações com Smart Contracts criados em Solidity
 
-Comandos úteis:
+### Stack Usado
+- Solidity
+- Hardhat
+- Ethers.js
 
-```shell
-npx hardhat accounts
-npx hardhat compile
+### DEMO Vercel 
+- [Vercel](https://react-estudo-web3.vercel.app/)
 
-// Roda localhost
-npx hardhat node
+### Smart Contract BSC
+- [Testnet BSC](https://testnet.bscscan.com/address/0x040576E4be8E0387a9e8ABF716F83d8c64ACb9c1)
 
-// deploy contrato para a Testnet
-npx hardhat run scripts/deploy.js --network testnet
+
+### Intruções de instalação
+
+``` bash
+# crie um repositorio vázio
+$ npm init --yes
+
+# instala o hardhat no repositório
+$ npm install --save-dev hardhat
+
+# inicia o hardhat
+$ npx hardhat
+
+# caso tenha clonado o repositório os passos anteriores talves sejam desnecessários
+# lembre-se de conferir seu config.hardhat
+
+# da um clean no ambiente 
+$ npx hardhat clean
+
+# compila o contrato
+$ npx hardhat compile
+
+# faz o deploy do contrato na rede escolhida
+$ npx hardhat run --network testnet scripts/deploy.js --network testnet
 ```
-
-=)
