@@ -1,4 +1,4 @@
-# Smart Contract em Solidity
+# Portal Tchauzinho Smart Contract
 
 [![smartcontract](https://iili.io/HC8CxFR.png)](https://iili.io/HC8CxFR.png)
 
